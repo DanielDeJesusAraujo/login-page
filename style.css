@@ -1,0 +1,96 @@
+body {
+  bottom: 0px;
+  background-image: url(date/background-img-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration:underline;
+}
+.youtube{
+  max-width: 30px;
+  border-radius: 4px;
+}
+
+header{
+  background-color: aliceblue;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  border-radius: 8px;
+  margin: 0 20px;
+}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 95%;
+}
+
+main{
+  display:flex;
+  justify-content: space-between;
+}
+
+section{
+  background-color: rgb(255, 255, 255);
+  opacity: 0.8;
+  margin: 5px;
+  border-radius: 6px;
+  min-height: 500px;
+  display: flex;
+  flex-basis: 600px;
+  flex-direction: column;
+  margin: 20px;
+}
+
+#animation{
+  opacity: 1;
+}
+
+#animation img{
+min-height: 100%;
+border-radius: 6px;
+}
+
+textarea{
+  width: 98%;
+  resize: none;
+}
+
+form{
+  /*border: 2px solid blue;*/
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  margin: 20px 20px;
+}
+
+#reset{
+  margin-left: 20px;
+}
+
+footer{
+  background-color: aliceblue;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+footer p{
+  padding: 10px;
+  
+}
+
+.form-check{
+  margin-left: 12px;
+}
