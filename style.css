@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'game';
+  src: url('date/SpaceMission-rgyw9.otf');
+}
+
 body {
   bottom: 0px;
   background-image: url(date/background-img-2.jpg);
@@ -7,9 +12,9 @@ body {
 }
 
 h1{
+  font-family: 'game', Times, serif;
   color: rgb(0, 0, 0);
   text-align: center;
-  text-decoration:underline;
 }
 .youtube{
   max-width: 30px;
@@ -48,6 +53,18 @@ section{
   flex-basis: 600px;
   flex-direction: column;
   margin: 20px;
+}
+
+.container .quests{
+  margin-bottom: 0px;
+}
+
+.container{
+  margin-bottom: 20px;
+}
+
+.quests{
+  font-size: 25px;
 }
 
 #animation{
@@ -93,4 +110,9 @@ footer p{
 
 .form-check{
   margin-left: 12px;
+}
+
+
+@media screen and (max-width: 600px) {
+  
 }
