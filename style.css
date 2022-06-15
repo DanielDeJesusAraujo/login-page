@@ -12,16 +12,17 @@ body {
   color: white;
 }
 
-h1{
+h1 {
   font-family: 'game', Times, serif;
   text-align: center;
 }
-.youtube{
+
+.youtube {
   max-width: 30px;
   border-radius: 4px;
 }
 
-header{
+header {
   background-color: rgb(0, 0, 0);
   opacity: 0.8;
   display: flex;
@@ -31,53 +32,53 @@ header{
   margin: 0 20px;
 }
 
-#header{
+#header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-basis: 95%;
 }
 
-main{
-  display:flex;
+main {
+  display: flex;
   justify-content: space-between;
 }
 
-section{
+section {
   background-color: rgb(0, 0, 0);
   opacity: 0.8;
   margin: 5px;
   border-radius: 6px;
   min-height: 500px;
   display: flex;
-  flex-basis: 600px;
+  flex-basis: 700px;
   flex-direction: column;
   margin: 20px;
 }
 
 
-.container .quests{
+.container .quests {
   margin-bottom: 0px;
 }
 
-.container{
+.container {
   margin-bottom: 20px;
 }
 
-.quests{
+.quests {
   font-size: 25px;
 }
 
-#animation{
+#animation {
   opacity: 1;
 }
 
-#animation img{
-min-height: 100%;
-border-radius: 6px;
+#animation img {
+  min-height: 100%;
+  border-radius: 6px;
 }
 
-textarea{
+textarea {
   background-color: rgba(255, 255, 255, 0.116);
   width: 98%;
   resize: none;
@@ -86,19 +87,21 @@ textarea{
 
 
 
-form{
+form {
   /*border: 2px solid blue;*/
+  max-width: 100%;
+  max-height: 100%;
   display: flex;
   flex-direction: column;
   align-self: stretch;
   margin: 20px 20px;
 }
 
-#reset{
+#reset {
   margin-left: 20px;
 }
 
-footer{
+footer {
   background-color: rgb(0, 0, 0);
   opacity: 0.8;
   display: flex;
@@ -108,20 +111,38 @@ footer{
   margin: 20px;
 }
 
-footer p{
+footer p {
   padding: 10px;
-  
 }
 
-.form-check{
+.form-check {
   margin: 0px 0 10px 12px;
 }
 
-.form-control{
+.form-control {
   background-color: rgba(255, 254, 254, 0.151);
 }
 
 
-@media screen and (max-width: 600px) {
-  
+@media screen and (max-width: 900px) {
+  main {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #header {
+    flex-direction: column;
+  }
+
+  textarea {
+    width: 100%;
+    height: 200px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+
 }
